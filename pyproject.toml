@@ -1,6 +1,6 @@
 [project]
 name = "clide"
-version = "0.1.0"
+version = "0.1.1"
 description = "Clide (pronounced 'Clyde') is custom CLI tool for managing Rana Salem's personal computer"
 readme = "README.md"
 dependencies = [
