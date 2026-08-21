@@ -1,0 +1,18 @@
+[project]
+name = "clide"
+version = "0.1.0"
+description = "Clide (pronounced 'Clyde') is custom CLI tool for managing Rana Salem's personal computer"
+readme = "README.md"
+dependencies = [
+  "click>=8.4"
+]
+
+[project.scripts]
+clide = "clide.cli:cli"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
