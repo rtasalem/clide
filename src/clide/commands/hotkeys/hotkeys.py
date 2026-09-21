@@ -6,7 +6,7 @@ from .data import HOTKEY_SECTIONS
 @click.option('--apps', '-a', is_flag=True, help='Show application hotkeys.')
 @click.option('--system', '-s', is_flag=True, help='Show system hotkeys.')
 @click.option('--window-management', '-wm', is_flag=True, help='Show window management hotkeys.')
-def show_hotkeys(apps: bool, system: bool, window_management: bool) -> None:
+def hotkeys(apps: bool, system: bool, window_management: bool) -> None:
     """List all hotkeys, or a specific category."""
     selected = {
         "apps": apps,

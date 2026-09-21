@@ -1,5 +1,5 @@
 import click
-from .show_hotkeys.hotkeys import show_hotkeys
+from .commands.hotkeys.hotkeys import hotkeys
 
 version = None
 param_decls = ['--version', '-v']
@@ -10,7 +10,7 @@ param_decls = ['--version', '-v']
 def cli(ctx):
   pass
 
-cli.add_command(show_hotkeys)
+cli.add_command(hotkeys)
 
 if __name__ == '__main__':
   cli()
