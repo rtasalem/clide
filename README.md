@@ -42,6 +42,7 @@ clide [COMMAND] [OPTIONS]
 | Command | Description |
 | ------- | ----------- |
 | `hotkeys` | List all available hotkeys. |
+| `timezones` | Show the time in personally meaningful locations. |
 
 ## Development
 
