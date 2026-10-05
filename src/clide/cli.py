@@ -1,6 +1,5 @@
 import click
 from .commands.hotkeys.command import hotkeys_command
-from .commands.timezones.command import timezones_command
 
 version = None
 param_decls = ['--version', '-v']
@@ -12,7 +11,6 @@ def cli(ctx):
   pass
 
 cli.add_command(hotkeys_command)
-cli.add_command(timezones_command)
 
 if __name__ == '__main__':
   cli()
