@@ -1,7 +1,7 @@
 import click
 from .data import hotkeys
 
-@click.command(help='List all available hotkeys')
+@click.command(help='List all available hotkeys.')
 def hotkeys_command():
   width = max(len(hotkey.shortcut) for hotkey in hotkeys)
 
