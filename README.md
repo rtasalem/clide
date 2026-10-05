@@ -35,7 +35,13 @@ clide [COMMAND] [OPTIONS]
 | Flag | Description |
 | ---- | ----------- |
 | `--version`, `-v` | Print the installed version of `clide`. |
-| `--help` | Show help for `clide` or any subcommand. |
+| `--help` | Show all options and commands for `clide`. |
+
+### Commands
+
+| Command | Description |
+| ------- | ----------- |
+| `hotkeys` | List all available hotkeys. |
 
 ## Development
 
