@@ -8,7 +8,7 @@ def timezones_command():
   labels = [f'{timezone.city}, {timezone.country}' for timezone in timezones]
   width = max(len(label) for label in labels)
 
-  click.echo('Your timezones: \n')
+  click.echo('Timezones:')
 
   for timezone, label in zip(timezones, labels):
     time = get_timezone(timezone.zone)
