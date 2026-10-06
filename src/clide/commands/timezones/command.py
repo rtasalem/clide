@@ -12,4 +12,4 @@ def timezones_command():
 
   for timezone, label in zip(timezones, labels):
     time = get_timezone(timezone.zone)
-    click.echo(f'  📍 {label:<{width}}: 🕓 {time}')
+    click.echo(f'  {timezone.flag} {label:<{width}}: 🕓 {time}')
