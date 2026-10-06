@@ -24,6 +24,16 @@ clide --version
 clide -v
 ```
 
+## Upgrade
+
+To upgrade `clide` to latest stable version at any time:
+
+```
+git checkout main
+git pull
+pipx upgrade clide
+```
+
 ## Usage
 
 ```
@@ -42,6 +52,7 @@ clide [COMMAND] [OPTIONS]
 | Command | Description |
 | ------- | ----------- |
 | `hotkeys` | List all available hotkeys. |
+| `timezones` | Show the time in personally meaningful locations. |
 
 ## Development
 

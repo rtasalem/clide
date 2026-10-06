@@ -1,6 +1,6 @@
 [project]
 name = "clide"
-version = "0.2.0"
+version = "0.3.0"
 description = "Clide (pronounced 'Clyde') is custom CLI tool for managing Rana Salem's personal computer"
 readme = "README.md"
 dependencies = [
@@ -19,3 +19,7 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--import-mode=importlib"

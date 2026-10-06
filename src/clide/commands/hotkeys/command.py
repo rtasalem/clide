@@ -9,3 +9,5 @@ def hotkeys_command():
 
   for hotkey in hotkeys:
     click.echo(f'  {hotkey.shortcut:<{width}} | {hotkey.description}')
+
+  click.echo('\n  The above list is also available on GitHub in Markdown format: https://github.com/rtasalem/mac-config/blob/main/hotkeys.md')

@@ -3,7 +3,7 @@ from clide.cli import cli
 from clide.commands.hotkeys.data import hotkeys
 
 def test_hotkeys_command_lists_all_available_hotkeys():
-# # ensures the test fails when the `hotkeys` list is empty 
+# ensures the test fails when the `hotkeys` list is empty 
 # i.e. makes sure the test is testing against data
   assert hotkeys
 
