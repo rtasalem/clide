@@ -24,6 +24,16 @@ clide --version
 clide -v
 ```
 
+## Upgrade
+
+To upgrade `clide` to latest stable version at any time:
+
+```
+git checkout main
+git pull
+pipx upgrade clide
+```
+
 ## Usage
 
 ```
@@ -52,12 +62,6 @@ Create and activate a virtual environment (`venv`):
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -e ".[dev]"
-```
-
-To upgrade `clide` to latest stable version at any time:
-
-```
-pipx upgrade clide
 ```
 
 ## Testing
