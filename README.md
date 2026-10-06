@@ -54,6 +54,12 @@ source .venv/bin/activate
 pip install -e ".[dev]"
 ```
 
+To upgrade `clide` to latest stable version at any time:
+
+```
+pipx upgrade clide
+```
+
 ## Testing
 
 Run all tests:
