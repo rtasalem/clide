@@ -6,5 +6,3 @@ class Timezone:
   country: str
   zone: str
   flag: str
-
-
